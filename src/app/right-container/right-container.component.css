@@ -1,0 +1,135 @@
+/* outer container for right container */
+.right-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container-nav-bar{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    font-weight: bold
+}
+
+
+/* CSS for nav bar tabs */
+.nav-bar-tabs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+/* CSS for today */
+.today{
+    margin-right: 10px;
+    color: #c5c5c5;
+}
+
+.today:hover{
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.today:active{
+    color: #1a1a1a;
+    /* margin-right: 10px; */
+}
+/* CSS for week */
+.week{
+    color: #c5c5c5;
+}
+
+.week:hover{
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.week:active{
+    color: #1a1a1a;
+}
+/* CSS for underline */
+.underline{
+    width: 40px;
+    height: 1px;
+    background-color: #1a1a1a;
+    margin-top: 1.3em;
+}
+
+.underline-today{
+    transform: translate3d(-220%,0,0);
+    transition: 100ms;
+}
+.underline-week{
+    transform: translate3d(-90%,0,0);
+    transition: 100ms;
+}
+/* CSS for nav bar metric */
+.nav-bar-metric{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+}
+/* CSS for celsius and fahrenheit  */
+.celsius{
+    border-radius: 500px;
+    padding: 7px 5px;
+    color: #1a1a1a;
+    background-color: #ffff;
+    font-size: small;
+
+}
+
+.celsius:hover{
+    background-color: #1a1a1a;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.celsius:active{
+    background-color: #1a1a1a;
+    color: #ffff;
+}
+
+.fahrenheit{
+    border-radius: 500px;
+    padding: 7px 5px;
+    color: #1a1a1a;
+    background-color: #ffff;
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10ox;
+}
+
+.fahrenheit:hover{
+    background-color: #1a1a1a;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.fahrenheit:active{
+    background-color: #1a1a1a;
+    color: #ffff;
+
+}
+
+/* CSS for profil img */
+.profile-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.right-container-data-box{
+    flex: 12;
+}
